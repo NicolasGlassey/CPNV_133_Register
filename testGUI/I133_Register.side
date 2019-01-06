@@ -1,0 +1,145 @@
+{
+  "id": "9f93fbd3-f2d3-4f4c-a1e5-d607acdaff4b",
+  "version": "1.1",
+  "name": "I133_Register",
+  "url": "http://localhost:8081",
+  "tests": [{
+    "id": "28dd54d7-773b-40ea-b39a-4e1afab22432",
+    "name": "US_I133_withNewsLetter",
+    "commands": [{
+      "id": "a13a576e-665e-45f8-aa3e-5eeeb9112ff0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/Register/formRegister.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a4723af-2e55-49f2-b47e-2d3da88e7c32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "854x1050",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad936603-8821-40d5-aad6-f13571899d74",
+      "comment": "",
+      "command": "click",
+      "target": "id=pseudo",
+      "targets": [
+        ["id=pseudo", "id"],
+        ["name=inputPseudo", "name"],
+        ["css=#pseudo", "css"],
+        ["css=#pseudo", "css:finder"],
+        ["xpath=//input[@id='pseudo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6c56ebd-e69e-4373-90f8-b04ad9e849b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=pseudo",
+      "targets": [
+        ["id=pseudo", "id"],
+        ["name=inputPseudo", "name"],
+        ["css=#pseudo", "css"],
+        ["css=#pseudo", "css:finder"],
+        ["xpath=//input[@id='pseudo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pseudo"
+    }, {
+      "id": "f5aaec89-749f-426f-81a5-fcd46529313d",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=inputUserName", "name"],
+        ["css=#userName", "css"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "userName"
+    }, {
+      "id": "f71ea83e-bfb8-42a4-af39-2761c187e8fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=inputEmail", "name"],
+        ["css=#inputEmail", "css"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "firstname@domain.ch"
+    }, {
+      "id": "bc928ba9-4c9d-4185-91db-a51be0d93a4d",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=inputPassword", "name"],
+        ["css=#inputPassword", "css"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "14dd1cb3-76b2-4b73-a19b-aac527f31087",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPhoneNumber",
+      "targets": [
+        ["id=inputPhoneNumber", "id"],
+        ["name=inputPhoneNumber", "name"],
+        ["css=#inputPhoneNumber", "css"],
+        ["css=#inputPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='inputPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "+412189767676"
+    }, {
+      "id": "7083e1c9-e280-427e-b329-1c5c3fbceed6",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkNewsLetter",
+      "targets": [
+        ["id=checkNewsLetter", "id"],
+        ["name=inputNewsLetter", "name"],
+        ["css=#checkNewsLetter", "css"],
+        ["css=#checkNewsLetter", "css:finder"],
+        ["xpath=//input[@id='checkNewsLetter']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89d31fff-a35e-449a-9a67-9c9f2208a9ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "86781531-2e49-47ad-b0b6-48e057e9252d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["28dd54d7-773b-40ea-b39a-4e1afab22432"]
+  }],
+  "urls": ["http://localhost:8081/"],
+  "plugins": []
+}
