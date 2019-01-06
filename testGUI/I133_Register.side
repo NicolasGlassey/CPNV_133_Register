@@ -10,7 +10,7 @@
       "id": "a13a576e-665e-45f8-aa3e-5eeeb9112ff0",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:63342/Register/formRegister.php",
+      "target": "http://localhost:8081/formRegister.php",
       "targets": [],
       "value": ""
     }, {
