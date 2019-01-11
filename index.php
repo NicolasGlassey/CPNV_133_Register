@@ -1,11 +1,12 @@
 <?php
 /**
- * Author   : cours 151 - pascal.benzonana@cpnv.ch
+ * Sources  : cours 151 - pascal.benzonana@cpnv.ch
+ * Author   : nicolas.glassey@cpnv.ch
  * Project  : Register
  * Created  : 31.12.2018 - 22:14
  *
- * Last update :    11.01.2018 nicolas.glassey@cpnv.ch
- *                  updated for 133
+ * Last update :    [01.12.2018 author]
+ *                  [add $logName in function setFullPath]
  * Git source  :    [link]
  */
 

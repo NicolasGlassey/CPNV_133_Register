@@ -9,15 +9,14 @@
  * Git source  :    [link]
  */
 
+require "model/dataRegister.php";
+
 function displayRegisterForm()
 {
     require "view/formRegister.php";
 }
 
-function registerProcess($arrayOfUsersInput)
+function registerProcess($arrayOfUserInputs)
 {
-    foreach ($arrayOfUsersInput as $userInput)
-    {
-        echo $userInput . '<br>';
-    }
+    saveRegister($arrayOfUserInputs);
 }

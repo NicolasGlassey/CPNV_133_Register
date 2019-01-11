@@ -8,4 +8,32 @@
  *                  [add $logName in function setFullPath]
  * Git source  :    [link]
  */
-echo "salut";
+
+require "fileConnector.php";
+
+//region Global variables
+$newRegister;
+//endregion Global variables
+
+function saveRegister($arrayInputUserForm)
+{
+    $newRegisterToWrite = extractRegister($arrayInputUserForm);
+    writeRegisterInJSON($newRegisterToWrite);
+}
+
+function extractRegister($arrayInputUserForm)
+{
+    $pseudo = $arrayInputUserForm['inputPseudo'];
+    $userName = $arrayInputUserForm['inputUserName'];
+    $emailAddress = $arrayInputUserForm['inputEmailAddress'];
+    $phoneNumber = $arrayInputUserForm['inputPhoneNumber'];
+    $newsLetter = $arrayInputUserForm['inputNewsLetter'];
+
+    $newRegisterTemp = array($pseudo, $userName, $emailAddress, $phoneNumber, $newsLetter);
+    return $newRegisterTemp;
+}
+
+
+
+
+
