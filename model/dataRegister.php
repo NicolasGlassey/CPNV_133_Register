@@ -8,13 +8,4 @@
  *                  [add $logName in function setFullPath]
  * Git source  :    [link]
  */
-
-//region Global variables
-$dataForm = $_POST;
-//endregion Global variables
-
-
-
-
-
-
+echo "salut";
